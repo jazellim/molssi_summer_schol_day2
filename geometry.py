@@ -2,7 +2,7 @@ import os
 import numpy as np
 
 def calculate_distance(rA, rB):
-    """Calculate the distance between points A and B. Assumes rA and rB are numpy arrays."""
+    """Compute the distance between points A and B. Assumes rA and rB are numpy arrays."""
     dist_vec = (rA-rB)
     distance = np.linalg.norm(dist_vec)
     return distance
